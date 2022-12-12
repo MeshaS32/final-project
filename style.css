@@ -1,0 +1,55 @@
+#body {
+background-image: url("https://www.kindpng.com/picc/m/107-1075179_transparent-pokeball-png-transparent-background-pokeball-opening-png.png");
+
+
+}
+
+#h1 {
+    font-family: 'Courier New', Courier, monospace;
+   align-content: center;
+   zoom: 150%;
+   font-style: italic;
+  
+   
+}
+
+
+  .pokedex-container {
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+    height: 500px;
+    width: 900px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+
+}  
+
+div{
+
+    display: inline-flex;
+    background: transparent;
+}
+
+
+.box-2 {
+    background-color: transparent;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+#pokemonForm {
+    
+    
+    flex-direction: column;
+    align-items: center;
+
+    border: 5px;
+    
+}
+
