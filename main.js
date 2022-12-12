@@ -56,16 +56,16 @@ console.log(2)
             
             pokemonInfo.innerHTML = ability
 
-            for (let i = 0; i <data.abilities.length; i++) {
-                console.log(data.abilities[i].ability.name);
-                let newListItem = document.createElement('li')
+            // for (let i = 0; i <data.abilities.length; i++) {
+            //     console.log(data.abilities[i].ability.name);
+            //     let newListItem = document.createElement('li')
             
-                 pokemonInfoList.appendChild(newListItem)
-                 newListItem.innerText =  data.abilities[i].ability.name;
+            //      pokemonInfoList.appendChild(newListItem)
+            //      newListItem.innerText =  data.abilities[i].ability.name;
 
 
                 
-            }
+            // }
             
     
             if(input.value < 1){
