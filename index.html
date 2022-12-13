@@ -8,30 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="body">
-
-    <div>
-        <h1>Mesha's Pokedex</h1>
+   
+     <h1 id="h1">Mesha's Pokedex</h1>
+    <div id="container">
 
   <div>
-    <div class="pokemonI"> 
+    <div> 
         <div class="form">
             
-           <form id="pokemonForm">
-            <div>
-                <label >Enter a pokemon's name</label>
-                <input id="pokemonNames" type="text" placeholder="Type name here">
-            </div>
-            <div>
-                <input id="input" type="submit" value="Click to catch that pokemon">
-                <button id="aButton"> Main ability</button>
-            </div>
-           </form>
+        <form id="pokemonForm">
+        <div >
+            
+        <label >Enter a pokemon's name or id</label>
+        <input id="pokemonNames" type="text" placeholder="Type name here">
+         </div>
+         <div> 
+         <input id="input" type="submit" value="Click to catch that pokemon">
+         <button id="aButton"> Fetch 2 abilities</button>
+         <button id="gender">Find Gender Differences</button>
+         </div>
+         </form>
         </div>
         <div class="box-2">
-            <ul id="box-22">Main move pops up here
+            <ul id="box-22">Name/Main abilities
 
             </ul>
-        </div>
+        </div> 
+        
+        
         <img id="pokemonImg">
         <p id="pokemonInfo"></p>
         
@@ -40,5 +44,6 @@
   </div>
 
     <script src="main.js"></script>
+    
 </body>
 </html>
